@@ -7,11 +7,17 @@ package aritmetica;
 import java.util.Scanner;
 
 /**
- *
+ *  
+ * 
  * @author Diego Salinas Yañez (diegosy12@educastur.es)
  */
 public class Calculos {
-    
+    /**
+     * 
+     * 
+     * @param scanner recive un parametro de tipo Scanner 
+     * 
+     */
     protected static void calcularAreaTriangulo(Scanner scanner) {
         System.out.print("Introduce la base del triangulo: ");
         double base = scanner.nextDouble();
@@ -21,14 +27,20 @@ public class Calculos {
         final String menasje = "El area de la figura es: ";
         System.out.println(menasje + areaTriangulo);
     }
-
+    /**
+     * 
+     * @param scanner 
+     */
     protected static void calcularAreaCirculo(Scanner scanner) {
         System.out.print("Introduce el radio del circulo: ");
         double radio = scanner.nextDouble();
         double areaCirculo = Math.PI * radio * radio;
         System.out.println("El area de la figura es: " + areaCirculo);
     }
-
+    /**
+     * 
+     * @param scanner 
+     */
     protected static void calcularAreaCuadrado(Scanner scanner) {
         System.out.print("Introduce el lado del cuadrado: ");
         double lado = scanner.nextDouble();

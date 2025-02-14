@@ -4,7 +4,13 @@ package aritmetica;
 import java.util.Scanner;
 
 
-
+/**
+ * Esta clase muestra un menú
+ * 
+ * @author diego 
+ * @version 1.0
+ * @since 14/02/2025
+ */ 
 public class Repaso extends Calculos {
 
     

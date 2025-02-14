@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 
 
-public class Repaso {
+public class Repaso extends Calculos {
 
     
     public static void main(String[] args) {
@@ -43,38 +43,5 @@ public class Repaso {
 
     }
 
-    private static void calcularAreaTriangulo(Scanner scanner) {
-        System.out.print("Introduce la base del triangulo: ");
-        
-        double base = scanner.nextDouble();
-        
-        System.out.print("Introduce la altura del triangulo: ");
-        
-        double altura = scanner.nextDouble();
-        
-        double areaTriangulo = (base * altura) / 2;
-        
-        System.out.println("El area de la figura es: " + areaTriangulo);
-    }
-
-    private static void calcularAreaCirculo(Scanner scanner) {
-        System.out.print("Introduce el radio del circulo: ");
-        
-        double radio = scanner.nextDouble();
-        
-        double areaCirculo = Math.PI * radio * radio;
-        
-        System.out.println("El area de la figura es: " + areaCirculo);
-    }
-
-    private static void calcularAreaCuadrado(Scanner scanner) {
-        System.out.print("Introduce el lado del cuadrado: ");
-        
-        double lado = scanner.nextDouble();
-        
-        double areaCuadrado = lado * lado;
-        
-        System.out.println("El area de la figura es: " + areaCuadrado);
-    }
 
 }
